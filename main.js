@@ -12,7 +12,8 @@ function discordWebhook(){
      
       request.open("POST", "****PUT-WEBHOOK-URL-HERE****"); // <-- Discord webhook link 
       
-      request.setRequestHeader('Content-type', 'application/json');
+      request.setRequestHeader('Content-type', 'application/json', );
+      request.mode('cors');
 
 
       	//lets have an parameter to send to the discord webhook .
