@@ -24,3 +24,4 @@ function discordWebhook(){
       }
       request.send(JSON.stringify(params));//send the params variable to discord webhook.
     }
+discordWebhook()
